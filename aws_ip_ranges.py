@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 
-"""Downloads Amazon AWS netblocks and converts them to CSV"""
+"""
+Downloads Amazon AWS IP Address Ranges and converts them to CSV
+
+Documentation: http://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
+"""
 
 import cidr
 import json

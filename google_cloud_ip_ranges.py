@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 
-"""Downloads Amazon AWS netblocks and converts them to CSV"""
+"""
+Downloads Amazon AWS netblocks and converts them to CSV.
+
+Documentation at: https://cloud.google.com/compute/docs/faq#ipranges
+"""
 
 import cidr
 import json

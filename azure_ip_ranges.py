@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 
-"""Downloads Microsoft Azure netblocks and converts them to CSV"""
+"""
+Downloads Microsoft Azure IP Ranges and converts them to CSV
+
+Documentation: https://msdn.microsoft.com/en-us/library/azure/dn175718.aspx
+"""
 
 # imports
 import cidr
